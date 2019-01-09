@@ -1,11 +1,11 @@
 // swift-tools-version:4.0
 import PackageDescription
 
-#if canImport(CommonCrypto)
-private let addCryptoSwift = false
-#else
+//#if canImport(CommonCrypto)
+//private let addCryptoSwift = false
+//#else
 private let addCryptoSwift = true
-#endif
+//#endif
 
 let package = Package(
     name: "SwiftLint",
